@@ -1,135 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-<style>
- body {
-  font-family:  sans-serif;
-  margin: 0;
-}
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+      }
 
-html {
-  box-sizing: border-box;
-}
+      html {
+        box-sizing: border-box;
+      }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
 
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
+      .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
-}
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+      }
 
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #474e5d;
-  color: white;
-}
+      .about-section {
+        padding: 50px;
+        text-align: center;
+        background-color: #474e5d;
+        color: white;
+      }
 
-.container {
-  padding: 0 16px;
-}
+      .container {
+        padding: 0 16px;
+      }
 
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+      .container::after,
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
 
-.title {
-  color: grey;
-}
+      .title {
+        color: grey;
+      }
 
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
 
-.button:hover {
-  background-color: #555;
-}
+      .button:hover {
+        background-color: #555;
+      }
 
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-  </style>
- </head>
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+    </style>
+  </head>
 
-  
   <div class="about-section">
-  <h1>
-    About Us Page
-  </h1>
-  <p>
-    <b>Who are we?</b> <br/>
-    We are an organization that helps young people achieve their dreams of being Airline Pilotes or work in the Air industry.<br/>
-    <b>What do we do?</b> <br/>
-    "Believe in yorself and you will be unstoppable."
-  </p>
-</div>
+    <h1>
+      About Us Page
+    </h1>
+    <p>
+      <b>Who are we?</b> <br />
+      We are an organization that helps young people achieve their dreams of
+      being Airline Pilotes or work in the Air industry.<br />
+      <b>What do we do?</b> <br />
+      "Believe in yorself and you will be unstoppable."
+    </p>
+  </div>
 
-<h2 style="text-align:center">Our Team</h2>
- <div class="row">
-   <div class="column">
-     <div class="card">
-       <img src="https://picsum.photos/id/1027/2848/4272" alt="Jessica" style="width:100%">
-       <div class="container">
-         <h2>Jessica L</h2>
-         <p class="title">CEO and Founder</p>
-         <p>Some text that describes me.</p>
-         <p>jessicaL@example.com</p>
-         <p><button class="button">Contact</button></p>
-       </div>
-     </div>
-   </div>
+  <h2 style="text-align:center">Our Team</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img
+          src="https://picsum.photos/id/1027/2848/4272"
+          alt="Jessica"
+          style="width:100%"
+        />
+        <div class="container">
+          <h2>Jessica L</h2>
+          <p class="title">CEO and Founder</p>
+          <p>Some text that describes me.</p>
+          <p>jessicaL@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
 
+    <div class="column">
+      <div class="card">
+        <img
+          src="https://picsum.photos/id/1012/3973/2639"
+          alt="Michael"
+          style="width:100%"
+        />
+        <div class="container">
+          <h2>Michael D</h2>
+          <p class="title">Art Director</p>
+          <p>Some text that describes me.</p>
+          <p>michaelD@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
 
-<div class="column">
-  <div class="card">
-    <img src="https://picsum.photos/id/1012/3973/2639" alt="Michael" style="width:100%">
-    <div class="container">
-      <h2>Michael D</h2>
-      <p class="title">Art Director</p>
-      <p>Some text that describes me.</p>
-      <p>michaelD@example.com</p>
-      <p><button class="button">Contact</button></p>
+    <div class="column">
+      <div class="card">
+        <img
+          src="https://picsum.photos/id/1025/4951/3301"
+          alt="Jared"
+          style="width:100%"
+        />
+        <div class="container">
+          <h2>Jared C</h2>
+          <p class="title">Designer</p>
+          <p>Some text that describes me.</p>
+          <p>jaredc@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-     
-<div class="column">
-  <div class="card">
-    <img src="https://picsum.photos/id/1025/4951/3301" alt="Jared" style="width:100%">
-    <div class="container">
-      <h2>Jared C</h2>
-      <p class="title">Designer</p>
-      <p>Some text that describes me.</p>
-      <p>jaredc@example.com</p>
-      <p><button class="button">Contact</button></p>
-    </div>
-  </div>
- </div>
-</div>
-
-
+</html>
