@@ -5,14 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 <style>
-  
-  
-  
+ body {
+  font-family:  sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
   </style>
-  
-  
-  
-  </head>
+ </head>
 
   
   <div class="about-section">
@@ -21,9 +83,9 @@
   </h1>
   <p>
     <b>Who are we?</b> <br/>
-    We are ..........<br/>
+    We are an organization that helps young people achieve their dreams of being Airline Pilotes or work in the Air industry.<br/>
     <b>What do we do?</b> <br/>
-    Our mission is to help young people achieve their dreams of being Airline Pilots or work in the Air industry.
+    "Beleiee in yorself and you will be unstoppable."
   </p>
 </div>
 
@@ -31,7 +93,7 @@
  <div class="row">
    <div class="column">
      <div class="card">
-       <img src="https://picsum.photos/id/1027/2848/4272" alt="Jessica" style="width:30%">
+       <img src="https://picsum.photos/id/1027/2848/4272" alt="Jessica" style="width:100%">
        <div class="container">
          <h2>Jessica L</h2>
          <p class="title">CEO and Founder</p>
@@ -45,7 +107,7 @@
 
 <div class="column">
   <div class="card">
-    <img src="https://picsum.photos/id/1012/3973/2639" alt="Michael" style="width:30%">
+    <img src="https://picsum.photos/id/1012/3973/2639" alt="Michael" style="width:100%">
     <div class="container">
       <h2>Michael D</h2>
       <p class="title">Art Director</p>
@@ -58,7 +120,7 @@
      
 <div class="column">
   <div class="card">
-    <img src="https://picsum.photos/id/1025/4951/3301" alt="Jared" style="width:30%">
+    <img src="https://picsum.photos/id/1025/4951/3301" alt="Jared" style="width:100%">
     <div class="container">
       <h2>Jared C</h2>
       <p class="title">Designer</p>
