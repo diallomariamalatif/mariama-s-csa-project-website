@@ -178,8 +178,7 @@ header nav .menu a:hover {
   }
 }
 
-.project {
-  body {
+body.project {
     background-color: powderblue;
   }
-}
+Did I fix the error I made?
