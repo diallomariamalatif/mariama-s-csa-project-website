@@ -1,5 +1,5 @@
 body {
-  color: #444;
+  color: black;
 }
 a {
   text-decoration: none;
@@ -33,7 +33,7 @@ header nav .menu a:hover {
 
 .hero {
   text-align: center;
-  padding: 5% 0; /* top/bottom 5% right/left 0 */
+  padding: 5% 0; 
   color: white;
   height: 100vh;
   background-image: url(https://picsum.photos/id/364/5184/3024);
